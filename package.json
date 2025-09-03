@@ -2,7 +2,7 @@
   "name": "image-to-pdf",
   "version": "1.0.0",
   "description": "A simple desktop app to convert images into PDF files.",
-  "author": "CAptainFAHIM",
+  "author": "CaptainFAHIM",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
