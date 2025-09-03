@@ -13,14 +13,22 @@
     "sharp": "^0.32.0"
   },
   "devDependencies": {
-    "electron-builder": "^26.0.12",
-    "electron": "^32.0.0"
+    "electron": "^32.0.0",
+    "electron-builder": "^26.0.12"
   },
   "build": {
-    "appId": "com.fahim.imagetopdf",
+    "appId": "CaptainFAHIM.IMAGEtoPDFconverter",
+    "productName": "IMAGE to PDF : converter",
     "win": {
-      "target": "nsis",
+      "target": "appx",
       "icon": "icon.ico"
+    },
+    "appx": {
+      "identityName": "CaptainFAHIM.IMAGEtoPDFconverter",
+      "publisher": "CN=A24115AB-0E7F-40CE-8000-C7DC9CBFD006",
+      "publisherDisplayName": "CaptainFAHIM",
+      "displayName": "IMAGE to PDF : converter",
+      "applicationId": "CaptainFAHIM.IMAGEtoPDFconverter"
     },
     "files": [
       "**/*"
