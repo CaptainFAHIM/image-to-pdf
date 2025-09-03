@@ -1,0 +1,29 @@
+{
+  "name": "image-to-pdf",
+  "version": "1.0.0",
+  "description": "A simple desktop app to convert images into PDF files.",
+  "author": "CAptainFAHIM",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "dependencies": {
+    "pdf-lib": "^1.17.1",
+    "sharp": "^0.32.0"
+  },
+  "devDependencies": {
+    "electron-builder": "^26.0.12",
+    "electron": "^32.0.0"
+  },
+  "build": {
+    "appId": "com.fahim.imagetopdf",
+    "win": {
+      "target": "nsis",
+      "icon": "icon.ico"
+    },
+    "files": [
+      "**/*"
+    ]
+  }
+}
